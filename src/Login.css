@@ -1,0 +1,44 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+
+.apple-style-input {
+  margin: 10px 0;
+  padding: 12px 20px;
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  outline: none;
+}
+
+.apple-style-button {
+  margin-top: 20px;
+  padding: 12px 20px;
+  width: 100%;
+  max-width: 300px;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  background-color: #007bff;
+  cursor: pointer;
+  outline: none;
+}
+
+.apple-style-button:hover {
+  background-color: #0056b3;
+}
+.input-error {
+  border-color: red;
+}
+
+.error-message {
+  color: red;
+}
